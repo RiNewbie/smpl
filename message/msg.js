@@ -391,8 +391,8 @@ module.exports = async(msg, client, from, store) => {
             let text1 = q.split("|")[0]
             let text2 = q.split("|")[1]
               if (!msg.isQuotedSticker) return msg.reply(`Harus berupa sticker! (reply stikernya)\n\nmessage: {\n Anda tidak bisa mencuri\n dan menamai sesuatu selain sticker\n dengan fitur ini!\n }`)   
-              if (!text1) return msg.reply(`Contoh! : ${order + ' ' + 'tes|rifza'}`)    
-              if (!text2) return msg.reply(`Contoh! : ${order + ' ' + 'tes|rifza'}`)
+              if (!text1) return msg.reply(`Contoh! : ${order + ' ' + 'tes|ari'}`)    
+              if (!text2) return msg.reply(`Contoh! : ${order + ' ' + 'tes|ari'}`)
                 client.sendMessage(from, { react: { text: "⏱️", key: msg.key }})
           try{ 
              let buff = await client.downloadMediaMessage(msg.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage, 'sticker')
@@ -1018,8 +1018,8 @@ module.exports = async(msg, client, from, store) => {
              title: time,
              body: `${msg.sayingtime + msg.timoji + ' ' + msg.pushName}`,
              thumbnail: thumb,
-             sourceUrl: "https://instagram.com/rifza.p.p",
-             mediaUrl: "https://instagram.com/rifza.p.p",
+             sourceUrl: "https://instagram.com/frrayptr_",
+             mediaUrl: "https://instagram.com/frrayptr_",
              //renderLargerThumbnail: true,
              showAdAttribution: true,
              mediaType: 1
